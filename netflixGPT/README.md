@@ -38,7 +38,8 @@ LOgin Signup page
 - create redux store with user slice
 - implemented signout
 - update user profile
-- bug fix signup user display name // not done
+- bug fix signup user display name 
+
 - bug fix : if user is not logged in redirect to login else browse..even entering the url /not done
 - unsubscribe to the onAuthStateChanged callbacks..
 - add hardcoded urls in constants
