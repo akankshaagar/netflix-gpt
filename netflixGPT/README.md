@@ -1,0 +1,54 @@
+# React + Vite
+# Getting Started with Create React App
+
+# Features to be build:
+LOgin Signup page
+   -signin
+   -sign up form
+   -redirect to browse page
+- Browse page (After Login)
+   - Header
+   - main movie
+   - trailer in background
+   - Title and decsription
+   - Movie Suggestion
+       - MOvie list
+
+
+- Netflix GPT
+   -Search Bar
+   -Movie Suggestion
+
+
+# Netflix GPT developed
+
+- create react app
+- configured Tailwind css
+-routing
+- Header
+-Login form
+-sign up form
+-form validation-
+- useref
+- firebase setup
+- deploying aap to production
+- impliment signup functionality (from firebase documention) and user ius successfully created in firebase..
+- impliment signin functionality
+- redux install
+- create redux store with user slice
+- implemented signout
+- update user profile
+- bug fix signup user display name // not done
+- bug fix : if user is not logged in redirect to login else browse..even entering the url /not done
+- unsubscribe to the onAuthStateChanged callbacks..
+- add hardcoded urls in constants
+
+- Register for TMDB API and create an app and get access token
+
+
+
+
+
+
+
+
