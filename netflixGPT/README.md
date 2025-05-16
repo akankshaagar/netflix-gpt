@@ -53,6 +53,8 @@ LOgin Signup page
 - Embeded the youtube video and make it autoplay and mute
 - added tailwind css to make main container to look beautiful,
 
+- build secodary components
+
 
 
 
