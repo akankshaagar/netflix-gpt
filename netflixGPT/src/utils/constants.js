@@ -4,3 +4,15 @@ export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
 
 export const BG_URL =
   "https://assets.nflxext.com/ffe/siteui/vlv3/fa7be975-efc3-48c6-8188-f07fdd1aa476/web/IN-en-20250428-TRIFECTA-perspective_e045264e-b4d4-4a6f-b2cc-f95e3344a332_large.jpg";
+
+export const API_KEY= "f57629e182394245e520add46a247c66";
+export const accessToken = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmNTc2MjllMTgyMzk0MjQ1ZTUyMGFkZDQ2YTI0N2M2NiIsIm5iZiI6MTc0NzMzNDc0My41MTMsInN1YiI6IjY4MjYzNjU3NjRlOTQxZGY3MzRiNTYxZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.wdCZgdECi0dsDJ0Bk3g_qstnyIg41rMl6RRJIePlXNc";
+
+export const API_OPTIONS= {
+  method:'GET',
+  headers:{
+    accept: 'application/json',
+    Authorization: `Bearer ${accessToken}`, 
+  }
+
+}

@@ -4,7 +4,7 @@ import Header from "./Header"
 import { checkValiddata } from "../utils/validate";
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { auth } from "../utils/firebase";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
 
@@ -14,7 +14,7 @@ const email = useRef(null);
 const password = useRef(null);
 const name = useRef(null);
 const [errorMessage, setErrorMessage] = useState('');
-const navigate = useNavigate();
+// const navigate = useNavigate();
 const dispatch = useDispatch();
 
 function toggleSignInForm(){
@@ -46,15 +46,14 @@ function handleLogin(){
                 console.log("user profile update ", uid, email, displayName);
                 dispatch(addUser({userId:uid, email:email, displayName:displayName}));
 
-                navigate("/browse");
+                // navigate("/browse");
               }).catch((error) => {
                 // An error occurred
                console.log("error in updating profile", error);
               });
 
             console.log('%c [ userSignup ]-39', 'font-size:13px; background:pink; color:#bf2c9f;', user)
-            // ...
-            // navigate("/");
+          
           })
           .catch((error) => {
             const errorCode = error.code;
@@ -71,7 +70,7 @@ function handleLogin(){
           const user = userCredential.user;
           console.log('%c [ userLogin ]-55', 'font-size:13px; background:pink; color:#bf2c9f;', user)
           // ...
-          navigate("/browse");
+        //   navigate("/browse");
         })
         .catch((error) => {
           const errorCode = error.code;
