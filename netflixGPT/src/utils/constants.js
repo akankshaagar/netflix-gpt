@@ -16,5 +16,12 @@ export const API_OPTIONS= {
   }
 
 }
+export const LANGUAGE_OPTIONS = [
+  {identifier:"en", name:"English"},
+  {identifier:"hindi", name:"Hindi"},
+  {identifier:"spanish", name:"Spanish"}
+]
+
+
 
 export const MOVIE_POSTER_CDN = "https://image.tmdb.org/t/p/w500/";

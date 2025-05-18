@@ -87,7 +87,7 @@ function handleLogin(){
     <div className="relative w-screen ">
         <Header/>
         <div className="absolute">
-        <img className="object-cover " src={BG_URL} alt="logo" />
+        <img className="h-screen w-screen object-cover " src={BG_URL} alt="logo" />
       </div>
       <div className='absolute w-3/12 my-52 mx-auto right-0 left-0'>
         <form className='flex flex-col gap-3 bg-gray-900 p-10 rounded-lg bg-opacity-80' onSubmit={(e)=>(e.preventDefault())}>

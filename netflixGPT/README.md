@@ -15,7 +15,7 @@ LOgin Signup page
        - MOvie list
 
 
-- Netflix GPT
+- Netflix GPT (MOvie recommendation system using GPT)
    -Search Bar
    -Movie Suggestion
 
@@ -52,8 +52,17 @@ LOgin Signup page
 - updated store with Trailer data
 - Embeded the youtube video and make it autoplay and mute
 - added tailwind css to make main container to look beautiful,
-
 - build secodary components
+- build movie list
+- build movie card
+- find out tmdb img cdn
+- make the bowse page amazing,
+- popular, trending and upcoming movies custom hook and implementation
+
+-  GPT Search Feature for logged in user only
+-  GPT Serch Page 
+-  GPT Search Bar
+- Multilingual feature in GPT SEarch
 
 
 
